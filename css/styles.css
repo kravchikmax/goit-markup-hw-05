@@ -134,6 +134,13 @@ img {
 .header-link.current::after {
     transform: scaleX(1);
     transform-origin: left;
+
+}
+
+.header-link:hover,
+.header-link:focus,
+.header-link.current {
+    color: var(--hover-background);
 }
 
 .header-address {
