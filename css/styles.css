@@ -480,6 +480,8 @@ img {
   align-items: center;
   justify-content: center;
   fill: var(--light-background);
+  transition: background-color var(--transition);
+  
 }
 
 .soc-item-link:hover,
@@ -524,6 +526,7 @@ img {
   justify-content: center;
   align-items: center;
   color: #8e8f99;
+  transition: color var(--transition), border-color var(--transition);
 }
 
 .customers-link:hover,
@@ -611,6 +614,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color var(--transition);
   
 }
 
