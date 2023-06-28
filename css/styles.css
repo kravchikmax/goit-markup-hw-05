@@ -535,12 +535,6 @@ img {
   color: #404bbf;
 }
 
-.customers-link:hover .customers-icon,
-.customers-link:focus .customers-icon {
-  fill: var(--hover-background);
-  color: #404bbf;
-}
-
 .customers-icon {
   width: 104px;
   height: 56px;
